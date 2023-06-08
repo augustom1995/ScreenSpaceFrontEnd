@@ -5,10 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/blackApp"
-    tools:context=".Opciones_Admin">
+    tools:context=".Opciones_Usuarios">
 
     <TextView
-        android:id="@+id/textView23"
+        android:id="@+id/textView70"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
@@ -21,10 +21,10 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button9"
+        android:id="@+id/button28"
         android:layout_width="355dp"
         android:layout_height="65dp"
-        android:layout_marginTop="228dp"
+        android:layout_marginTop="412dp"
         android:backgroundTint="@color/blueApp"
         android:onClick="CerrarSesion"
         android:text="@string/CerrarSesion"
@@ -34,20 +34,20 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/button29"
         android:layout_width="355dp"
         android:layout_height="65dp"
-        android:layout_marginTop="412dp"
-        android:backgroundTint="@color/redApp"
-        android:onClick="EliminarCuenta"
-        android:text="@string/EliminarCuenta"
+        android:layout_marginTop="228dp"
+        android:backgroundTint="@color/blueApp"
+        android:onClick="Configuracion"
+        android:text="@string/Configuracion"
         app:cornerRadius="25dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButton4"
+        android:id="@+id/imageButton19"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="28dp"

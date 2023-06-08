@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blackApp"
+    tools:context=".Error_De_Servidor">
+
+    <TextView
+        android:id="@+id/textView100"
+        android:layout_width="327dp"
+        android:layout_height="454dp"
+        android:layout_marginTop="80dp"
+        android:background="@color/whiteApp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView101"
+        android:layout_width="297dp"
+        android:layout_height="163dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="@string/Servidores"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView100"
+        app:layout_constraintStart_toStartOf="@+id/textView100"
+        app:layout_constraintTop_toTopOf="@+id/textView100" />
+
+    <Button
+        android:id="@+id/button35"
+        android:layout_width="355dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="68dp"
+        android:backgroundTint="@color/blueApp"
+        android:onClick="Inicio"
+        android:text="@string/VolverAIntentar"
+        app:cornerRadius="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView100" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="234dp"
+        android:layout_height="188dp"
+        android:layout_marginTop="32dp"
+        android:background="@mipmap/alerta"
+        app:layout_constraintEnd_toEndOf="@+id/textView100"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="@+id/textView100"
+        app:layout_constraintTop_toBottomOf="@+id/textView101"
+        app:srcCompat="@mipmap/alerta" />
+</androidx.constraintlayout.widget.ConstraintLayout>

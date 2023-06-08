@@ -6,31 +6,28 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class Inicio_Usuarios extends AppCompatActivity {
+public class Opciones_Usuarios extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_inicio_usuarios);
+        setContentView(R.layout.activity_opciones_usuarios);
     }
-
-    public void Inicio(View view){
+    public void Volver(View view){
 
         Intent intent = new Intent(this, Inicio_Usuarios.class);
         startActivity(intent);
         finish();
     }
+    public void Configuracion(View view){
 
-    public void Opciones(View view){
-
-        Intent intent = new Intent(this, Opciones_Usuarios.class);
+        Intent intent = new Intent(this, Config_Cuenta_Usuarios.class);
         startActivity(intent);
         finish();
     }
+    public void CerrarSesion(View view){
 
-    public void InfoPelicula(View view){
-
-        Intent intent = new Intent(this, Info_Pelicula.class);
+        Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
         finish();
     }

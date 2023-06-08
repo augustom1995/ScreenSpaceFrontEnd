@@ -5,23 +5,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/blackApp"
-    tools:context=".EnvioMail_Olvido_Pass">
+    tools:context=".Exito_Cambiar_Pass">
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/button25"
         android:layout_width="355dp"
         android:layout_height="65dp"
-        android:layout_marginTop="72dp"
+        android:layout_marginTop="52dp"
         android:backgroundTint="@color/blueApp"
         android:onClick="Inicio"
         android:text="@string/Inicio"
         app:cornerRadius="25dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView18" />
+        app:layout_constraintTop_toBottomOf="@+id/textView73" />
 
     <TextView
-        android:id="@+id/textView18"
+        android:id="@+id/textView73"
         android:layout_width="327dp"
         android:layout_height="454dp"
         android:layout_marginTop="80dp"
@@ -31,26 +31,24 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView22"
-        android:layout_width="271dp"
-        android:layout_height="96dp"
-        android:layout_marginTop="52dp"
+        android:id="@+id/textView74"
+        android:layout_width="265dp"
+        android:layout_height="164dp"
+        android:layout_marginTop="40dp"
         android:gravity="center"
-        android:text="@string/EmailEnviado"
-        android:textColor="@color/blueApp"
-        android:textSize="34sp"
-        app:layout_constraintEnd_toEndOf="@+id/textView18"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="@+id/textView18"
-        app:layout_constraintTop_toTopOf="@+id/textView18" />
+        android:text="@string/Contrasenacambiadaexitosamente"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView73"
+        app:layout_constraintStart_toStartOf="@+id/textView73"
+        app:layout_constraintTop_toTopOf="@+id/textView73" />
 
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="211dp"
-        android:layout_height="208dp"
+        android:id="@+id/imageView6"
+        android:layout_width="217dp"
+        android:layout_height="178dp"
         android:layout_marginTop="40dp"
-        app:layout_constraintEnd_toEndOf="@+id/textView18"
-        app:layout_constraintStart_toStartOf="@+id/textView18"
-        app:layout_constraintTop_toBottomOf="@+id/textView22"
-        app:srcCompat="@mipmap/mailenviado" />
+        app:layout_constraintEnd_toEndOf="@+id/textView73"
+        app:layout_constraintStart_toStartOf="@+id/textView73"
+        app:layout_constraintTop_toBottomOf="@+id/textView74"
+        app:srcCompat="@mipmap/tildeok" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -6,31 +6,38 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class Inicio_Usuarios extends AppCompatActivity {
+public class Info_Pelicula extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_inicio_usuarios);
+        setContentView(R.layout.activity_info_pelicula);
     }
 
-    public void Inicio(View view){
+    public void Volver(View view){
 
         Intent intent = new Intent(this, Inicio_Usuarios.class);
         startActivity(intent);
         finish();
     }
 
-    public void Opciones(View view){
+    public void Resenar(View view){
 
-        Intent intent = new Intent(this, Opciones_Usuarios.class);
+        Intent intent = new Intent(this,Resena_Pelicula.class);
         startActivity(intent);
         finish();
     }
 
-    public void InfoPelicula(View view){
+    public void Compartir(View view){
 
-        Intent intent = new Intent(this, Info_Pelicula.class);
+        Intent intent = new Intent(this, Inicio_Usuarios.class);
+        startActivity(intent);
+        finish();
+    }
+
+    public void Reservar(View view){
+
+        Intent intent = new Intent(this, Usuario_Reservar.class);
         startActivity(intent);
         finish();
     }

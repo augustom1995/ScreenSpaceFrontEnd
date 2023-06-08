@@ -27,4 +27,11 @@ public class Login extends AppCompatActivity {
         startActivity(volver);
         finish();
     }
+
+    public void OlvidoPass(View view){
+
+        Intent intent = new Intent(this, Olvido_Pass.class);
+        startActivity(intent);
+        finish();
+    }
 }

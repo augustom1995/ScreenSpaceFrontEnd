@@ -20,4 +20,25 @@ public class Inicio_Admin extends AppCompatActivity {
         startActivity(opciones);
         finish();
     }
+
+    public void InicioAdmin(View view){
+
+        Intent intent = new Intent(this, Inicio_Admin.class);
+        startActivity(intent);
+        finish();
+    }
+
+    public void CrearCine(View view){
+
+        Intent intent = new Intent(this, Crear_Cine.class);
+        startActivity(intent);
+        finish();
+    }
+
+    public void IrASalas(View view){
+
+        Intent intent = new Intent(this, Salas_Admin.class);
+        startActivity(intent);
+        finish();
+    }
 }

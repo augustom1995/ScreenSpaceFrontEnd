@@ -5,14 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/blackApp"
-    tools:context=".Inicio_Admin">
+    tools:context=".Salas_Admin">
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/textView47"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
-        android:text="@string/TusCines"
+        android:text="@string/TusSalas"
         android:textColor="@color/whiteApp"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -21,18 +21,18 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/imageButton9"
         android:layout_width="46dp"
         android:layout_height="43dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="48dp"
         android:background="@mipmap/addbutton"
-        android:onClick="CrearCine"
+        android:onClick="CrearSala"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView26"
+        android:id="@+id/textView51"
         android:layout_width="422dp"
         android:layout_height="58dp"
         android:background="@color/blacknavigation"
@@ -40,37 +40,36 @@
         app:layout_constraintEnd_toEndOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButton5"
+        android:id="@+id/imageButton10"
         android:layout_width="100dp"
         android:layout_height="45dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="12dp"
         android:layout_marginEnd="48dp"
         android:background="@mipmap/optionbutton"
         android:onClick="Opciones"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textView26" />
+        app:layout_constraintTop_toTopOf="@+id/textView51" />
 
     <ImageButton
-        android:id="@+id/imageButton8"
+        android:id="@+id/imageButton11"
         android:layout_width="100dp"
         android:layout_height="45dp"
         android:layout_marginStart="48dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="12dp"
         android:background="@mipmap/cinebutton"
-        android:onClick="InicioAdmin"
-        app:layout_constraintStart_toStartOf="@+id/textView26"
-        app:layout_constraintTop_toTopOf="@+id/textView26" />
+        android:onClick="InicioCine"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView51" />
 
     <TextView
-        android:id="@+id/textView86"
+        android:id="@+id/textView88"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="60dp"
+        android:layout_marginBottom="72dp"
         android:background="#FFFFFF"
-        android:onClick="IrASalas"
-        android:text="@string/TusSalas"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/textView26"
+        android:onClick="VerFuncion"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/textView51"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />

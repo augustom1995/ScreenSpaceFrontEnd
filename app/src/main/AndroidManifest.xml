@@ -12,6 +12,72 @@
         android:theme="@style/Theme.ScreenSpace"
         tools:targetApi="31">
         <activity
+            android:name=".Usuario_Reservar"
+            android:exported="false" />
+        <activity
+            android:name=".Resena_Pelicula"
+            android:exported="false" />
+        <activity
+            android:name=".Resena_Enviada"
+            android:exported="false" />
+        <activity
+            android:name=".Error_De_Conexion"
+            android:exported="false" />
+        <activity
+            android:name=".Error_De_Servidor"
+            android:exported="false" />
+        <activity
+            android:name=".Modificar_Funcion"
+            android:exported="false" />
+        <activity
+            android:name=".Agregar_Funcion"
+            android:exported="false" />
+        <activity
+            android:name=".Ver_Funcion"
+            android:exported="false" />
+        <activity
+            android:name=".Confirm_Eliminacion_Cuenta_Usuario"
+            android:exported="false" />
+        <activity
+            android:name=".Info_Pelicula"
+            android:exported="false" />
+        <activity
+            android:name=".Reserva_Exitosa"
+            android:exported="false" />
+        <activity
+            android:name=".Cambiar_Pass"
+            android:exported="false" />
+        <activity
+            android:name=".Exito_Cambiar_Pass"
+            android:exported="false" />
+        <activity
+            android:name=".Exito_Modificar_Cuenta"
+            android:exported="false" />
+        <activity
+            android:name=".Config_Cuenta_Usuarios"
+            android:exported="false" />
+        <activity
+            android:name=".Opciones_Usuarios"
+            android:exported="false" />
+        <activity
+            android:name=".Modificar_Sala"
+            android:exported="false" />
+        <activity
+            android:name=".Crear_Sala"
+            android:exported="false" />
+        <activity
+            android:name=".Salas_Admin"
+            android:exported="false" />
+        <activity
+            android:name=".Eliminar_Cine"
+            android:exported="false" />
+        <activity
+            android:name=".Modificar_Cine"
+            android:exported="false" />
+        <activity
+            android:name=".Crear_Cine"
+            android:exported="false" />
+        <activity
             android:name=".Confirm_Eliminacion_Cuenta"
             android:exported="false" />
         <activity
